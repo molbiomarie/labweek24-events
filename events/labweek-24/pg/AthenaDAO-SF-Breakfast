@@ -1,0 +1,49 @@
+{
+  "event_contact_name": "Jenna Harris",           # mandatory
+  "event_contact_email": "jenna@athenadao.co",    # mandatory
+  "event_name": "AthenaDAO SF Breakfast",         # mandatory
+  "event_logo": "",                               # a static url (public accessible) of the logo, may be s3 or ipfs or anything else
+  "host": "AthenaDAO",                            # mandatory
+  "host_logo": "https://drive.google.com/file/d/10a7c0qJhYWi6Sz4stHgDBWsBKiHd4OU1/view",  # a static url (public accessible) of the logo, may be s3 or ipfs or anything else
+  "co_hosts": [                                   # optional
+     {
+       "name": "Lan Dao",
+       "logo": ""                                 # Same rule as event or host logo, in case of unavailability of Co-hosts information do not add "name" and "logo" (including the braces {})
+     }
+   ],
+  "description": "Join AthenaDAO for our San Francisco breakfast where we'll talk fertility, crypto, and how ReproTech can take us to Mars.",
+  "tags": [
+    "DeSci",
+    "Meetup"                                  # Sample tag
+  ],
+  "start_date": "2024-04-16T10:00:00.000Z",        # Sample format in UTC
+  "end_date": "2024-04-16T12:00:00.000Z",          # Sample format in UTC
+  "access_type": "CUSTOM_REGISTRATION",            # mandatory and do not change the value
+  "access_option": "OPEN",                         # One of 'OPEN', 'INVITE', 'PAID'
+  "format": "IN-PERSON",                           # One of 'HYBRID', 'VIRTUAL', 'IN-PERSON'
+  "location": "",                                  # any valid venue name
+  "location_url": "",                              # google map URL of the above mentioned venue
+  "meeting_platform": "",                          # zoom, google etc
+  "meeting_link": "",                              # zoom/google meeting link
+  "seat_count": "1-50",                            # any range like 1-50, 100-200 etc
+  "website_link": "https://lu.ma/z2rtvopy",
+  "agenda": {
+    "sessions": [
+       {
+          name: '',
+          description: '',                          # optional
+          start_date: ,                             # Sample format in UTC
+          end_date:                                 # Sample format in UTC (optional)
+       }                                            # In case of unavailability of the sessions information do not add "name", "description", "start_date" and "logo" (including the braces {})
+     ]
+  },
+  "is_featured": ,                                  # <true/false>,
+  "conference": "labweek-24-pg",                    # for now this is the only value supported - mandatory
+  "contact_infos": {
+    "twitter": "<link/handle>",
+    "telegram": "",                                 
+    "discord": "",
+    "bluesky": "",
+    "mastadon": ""
+  }
+}
